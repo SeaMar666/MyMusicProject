@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MusicType">
+  <grid id="27dc6" binding="MusicTypePanel" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-9519886"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d2dc9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="26" style="0"/>
+          <foreground color="-869432"/>
+          <text value="MUSIC TYPES"/>
+        </properties>
+      </component>
+      <hspacer id="c1561">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="49b5f">
+        <constraints>
+          <grid row="1" column="0" row-span="4" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="bb404" class="javax.swing.JButton" binding="JAZZButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Copperplate Gothic Bold" size="20"/>
+          <text value="JAZZ"/>
+        </properties>
+      </component>
+      <component id="9a2a9" class="javax.swing.JButton" binding="POPButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Copperplate Gothic Bold" size="20"/>
+          <text value="POP"/>
+        </properties>
+      </component>
+      <component id="1bfb2" class="javax.swing.JButton" binding="ROCKButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Copperplate Gothic Bold" size="20"/>
+          <text value="ROCK"/>
+        </properties>
+      </component>
+      <component id="a1590" class="javax.swing.JButton" binding="HIPHOPButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Copperplate Gothic Bold" size="20"/>
+          <text value="HIP HOP"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
